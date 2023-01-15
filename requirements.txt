@@ -1,0 +1,4 @@
+pandas==1.5.2
+requests==2.25.1
+streamlit==1.15.2
+streamlit_lottie==0.0.3
