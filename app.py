@@ -15,7 +15,7 @@ def css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-css("../style/style.css")
+css("style/style.css")
 
 # ------ load assets ----
 lottie_coding = load_lottie("https://assets9.lottiefiles.com/packages/lf20_b7t4ylgj.json")
